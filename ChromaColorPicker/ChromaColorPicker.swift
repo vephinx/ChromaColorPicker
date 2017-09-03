@@ -490,6 +490,10 @@ open class ChromaColorPicker: UIControl {
         return adjustedAngle
     }
     
+    open func colorOnWheelFromAngle() -> UIColor {
+        return UIColor(hue: CGFloat(Double(currentAngle)/(2*Double.pi)), saturation: 1, brightness: 1, alpha: 1)
+    }
+    
     /* Find the angle relative to the center of the frame and uses the angle to find what color lies there */
     private func colorOnWheelFromAngle(_ angle: Float) -> UIColor {
         return UIColor(hue: CGFloat(Double(angle)/(2*Double.pi)), saturation: 1, brightness: 1, alpha: 1)

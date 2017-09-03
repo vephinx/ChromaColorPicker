@@ -281,7 +281,7 @@
 					};
 					35C376CC1D5CF5300069D7A1 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 43DKZUY8C6;
+						DevelopmentTeam = 4D4AA8PNCD;
 						LastSwiftMigration = 0820;
 					};
 					FC4AE3D71E16DEA300F02C60 = {
@@ -596,9 +596,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 4D4AA8PNCD;
 				INFOPLIST_FILE = "ChromaColorPicker-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathancardasis.ChromaPicker-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathancardasis.ChromaPicker-Demo-uk.sruiz-fork";
 				PRODUCT_NAME = "ChromaColorPicker-Demo";
 				SWIFT_VERSION = 3.0;
 			};
@@ -611,9 +612,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 4D4AA8PNCD;
 				INFOPLIST_FILE = "ChromaColorPicker-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathancardasis.ChromaPicker-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathancardasis.ChromaPicker-Demo-uk.sruiz-fork";
 				PRODUCT_NAME = "ChromaColorPicker-Demo";
 				SWIFT_VERSION = 3.0;
 			};

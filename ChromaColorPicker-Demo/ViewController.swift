@@ -49,6 +49,10 @@ extension ViewController: ChromaColorPickerDelegate{
         //Set color for the display view
         colorDisplayView.backgroundColor = color
         
+        print("current Angle \(colorPicker.colorOnWheelFromAngle())")
+        print("shade slider \(colorPicker.shadeSlider.currentValue)")
+        
+        
         //Perform zesty animation
         UIView.animate(withDuration: 0.2,
                 animations: {
